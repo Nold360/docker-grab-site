@@ -29,6 +29,11 @@ services:
     restart: unless-stopped
 ```
 
+### Start Server
+```
+docker-compose up -d
+```
+
 ### Grab A Site
 ```
 docker-compose exec grabsite grab-site --my-grab-site-options https://example.com
