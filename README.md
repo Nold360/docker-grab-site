@@ -1,5 +1,5 @@
 # Grab-Site Docker Container
-Simple Docker-Container for [grab-site](https://github.com/ludios/grab-site)
+Simple Docker-Container for [grab-site](https://github.com/ArchiveTeam/grab-site)
 
  - Webinterface will be exposed to **port 29000**
  - Grab'ed sites will be saved in **/data**
