@@ -6,7 +6,7 @@ RUN apt-get update && \
 			libssl-dev zlib1g-dev libbz2-dev libreadline-dev \
 			libsqlite3-dev libffi-dev libxml2-dev libxslt1-dev \
 			libre2-dev pkg-config && \
-    pip3 install --process-dependency-links --no-binary --upgrade git+https://github.com/ludios/grab-site && \
+    pip3 install --process-dependency-links --no-binary --upgrade git+https://github.com/ArchiveTeam/grab-site && \
     apt-get purge -y \
 			git build-essential pkg-config && \ 
 	apt-get autoremove -y && apt-get clean && \
