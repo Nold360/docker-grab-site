@@ -9,7 +9,7 @@ Because our gs-server resides inside a docker container, grab-site must also be 
 
 ### Start The Grab-Site Server
 ```
-ocker run -d --rm -p29000:29000 -v /path/to/data:/data --name grab-site-container nold360/grab-site
+docker run -d --rm -p29000:29000 -v /path/to/data:/data --name grab-site-container nold360/grab-site
 ```
 
 ### Grab A Site
